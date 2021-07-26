@@ -12,11 +12,11 @@ function NavigationBar(){
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item"><NavLink activeClassName="active" className="nav-link" aria-current="page" to={'/'}>Home</NavLink>
                         </li>
-                        <li className="nav-item"><NavLink activeClassName="active" className="nav-link" aria-current="page" to={'/about'}>About</NavLink>
+                        <li className="nav-item"><NavLink activeClassName="active" className="nav-link" aria-current="page" to={'/myprofile'}>My profile</NavLink>
                         </li>
-                        <li className="nav-item"><NavLink activeClassName="active" className="nav-link" aria-current="page" to={'/contacts'}>Contacts</NavLink>
+                        <li className="nav-item"><NavLink activeClassName="active" className="nav-link" aria-current="page" to={'/myposts'}>My Posts</NavLink>
                         </li>
-                        <li className="nav-item"><NavLink activeClassName="active" className="nav-link" aria-current="page" to={'/services'}>Services</NavLink>
+                        <li className="nav-item"><NavLink activeClassName="active" className="nav-link" aria-current="page" to={'/services'}>My Services</NavLink>
                         </li>
 
                     </ul>
