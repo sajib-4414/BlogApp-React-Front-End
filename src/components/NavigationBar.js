@@ -16,7 +16,8 @@ function NavigationBar(){
                         </li>
                         <li className="nav-item"><NavLink activeClassName="active" className="nav-link" aria-current="page" to={'/myposts'}>My Posts</NavLink>
                         </li>
-                        <li className="nav-item"><NavLink activeClassName="active" className="nav-link" aria-current="page" to={'/services'}>My Services</NavLink>
+                        <li className="nav-item"><NavLink activeClassName="active" className="nav-link" aria-current="page" to={'/services'}>My Services</NavLink></li>
+                        <li className="nav-item"><NavLink activeClassName="active" className="nav-link" aria-current="page" to={'/loginlogout'}>Login</NavLink>
                         </li>
 
                     </ul>

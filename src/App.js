@@ -8,6 +8,7 @@ import MyProfile from '../src/components/MyProfile'
 import NotFound from '../src/components/NotFound'
 import MyPosts from '../src/components/MyPosts'
 import Services from '../src/components/Services'
+import LoginLogout from '../src/components/LoginLogout'
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
 
 
           {/*Page content*/}
-          <div class="container px-4 px-lg-5">
+          <div className="container px-4 px-lg-5">
           <br/>
            {/*Content row*/}
             <Switch>
@@ -26,12 +27,13 @@ function App() {
               <Route exact path="/myprofile" component={MyProfile}></Route>
                 <Route exact path="/myposts" component={MyPosts}></Route>
                 <Route exact path="/services" component={Services}></Route>
+              <Route exact path="/loginlogout" component={LoginLogout}></Route>
               <Route component={NotFound} />
             </Switch>
           </div>
           {/*Footer*/}
-          <footer class="py-5 bg-dark">
-            <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
+          <footer className="py-5 bg-dark">
+            <div className="container px-4 px-lg-5"><p className="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
           </footer>
 
         </div>
